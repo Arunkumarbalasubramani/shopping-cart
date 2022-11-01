@@ -1,0 +1,18 @@
+.carousel-container {
+  height: 250px;
+  width: 100%;
+  background: #212529;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.heading {
+  color: white;
+  font-weight: bolder;
+  font-size: 50px;
+}
+.text {
+  color: #6c6f72;
+  font-size: larger;
+}
