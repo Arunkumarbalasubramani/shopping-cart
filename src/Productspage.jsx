@@ -1,11 +1,8 @@
-import IconButton from "@mui/material/IconButton";
-import DeleteIcon from "@mui/icons-material/Delete";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import image from "../src/image.PNG";
 import "./Productpage.scss";
-import Tooltip from "@mui/material/Tooltip";
 
 import Rating from "@mui/material/Rating";
 

@@ -4,7 +4,7 @@ import Navbarcomponent from "./Navbar";
 import Carouselpage from "./carouselpage";
 import Productspage from "./Productspage";
 import Footer from "./Footer";
-import { createContext, useState } from "react";
+import { useState } from "react";
 
 function App() {
   const [existingCart, setExistingCart] = useState([]);

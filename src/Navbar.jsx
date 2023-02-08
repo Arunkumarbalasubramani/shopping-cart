@@ -10,7 +10,6 @@ import { styled } from "@mui/material/styles";
 import IconButton from "@mui/material/IconButton";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import PaymentsIcon from "@mui/icons-material/Payments";
-import DeleteIcon from "@mui/icons-material/Delete";
 
 import { Table } from "react-bootstrap";
 
