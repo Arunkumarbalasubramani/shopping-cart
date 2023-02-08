@@ -2,12 +2,19 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbarcomponent from "./Navbar";
 import Carouselpage from "./carouselpage";
+import Productspage from "./Productspage";
+import Footer from "./Footer";
+import { createContext, useState } from "react";
+
 function App() {
+  const [existingCart, setExistingCart] = useState([]);
+
   return (
     <div className="App">
-      <Navbarcomponent />
+      <Navbarcomponent existingCart={existingCart} />
       <Carouselpage />
-      <h1>Welcome to Shoppincart task</h1>
+      <Productspage setExistingCart={setExistingCart} />
+      <Footer />
     </div>
   );
 }
